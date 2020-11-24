@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> Social media game where you challenge the people with questions of your choice. If the player get the right answers gains access to chat with the host.
     <br> 
 </p>
 
@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+The purpose of the project is to get comfortable with Kubernetes and being able to deploy a whole ecosystem of services 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
