@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mailcatcher-cluster-ip-service
+spec:
+  type: ClusterIP
+  selector:
+    component: mailcatcher
+  ports:
+    - port: 1080
+      targetPort: 1080
+      name: stmp
+    - port: 1025
+      targetPort: 1025
+      name: catcherinbox
